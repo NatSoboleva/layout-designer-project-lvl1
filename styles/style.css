@@ -2,3 +2,35 @@
 	margin: 0px;
 	padding: 0px;
 }
+ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+header {
+	display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+nav {
+	width: 400px;
+	margin-top: 2.3rem;
+}
+.brand {
+	width: 240px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo-img {
+    width: 60px;
+    margin-top: 1rem;
+}
+p {
+	margin-top: 2.3rem;
+}
