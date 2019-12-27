@@ -51,8 +51,8 @@ section {
 	display: flex;
 	flex-direction: column;
 }
-.banner {   
-    background-image: url(../images/bg-banner.png);   
+.banner {
+	background-image: url(../images/bg-banner.png);
     background-size: cover;
     padding-bottom: 20px;
     margin-bottom: 40px;
@@ -137,8 +137,60 @@ section {
 
 .title-form {
 	text-align: center;
+    margin-bottom: 30px;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+fieldset {
+	border: 2px solid  #34e2b2;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 30px;
+    padding-bottom: 10px;
+    width: 35%;
+    background-color: #fbf8f8;
+}
+legend {
+	margin-left: 0px;
+    color:  #34e2b2;
+    font-weight: 700;
+    font-size: 18px;
+}
+label {
+	margin-bottom: 20px;
+	display: flex;
+	font-size: 16px;
+	font-weight: 600;
+}
+/*select {
+	width: 40%;
+    position: relative;
+    margin-right: 0px;
+}*/
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select {
+	width: 40%;
+    position: relative;
+    margin-right: 0px;
+    border-radius: 5px;
+    border: 1px solid #d4cdcd;
+    height: 23px;
+    outline: none;
+}
+
+.btn-order {
+	color:  #34e2b2;
+    border: 1px solid  #34e2b2;
+    margin-left: 295px;
+    font-weight: 700;
+    margin-top: 5px;
 }
 footer {
+	display: flex;
 	margin-top: 50px;
 	background-color: #000;
 	color: #fff;

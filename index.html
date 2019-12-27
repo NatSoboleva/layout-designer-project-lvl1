@@ -19,7 +19,7 @@
 	    		<ul>
 	    			<li> <a href="">Преимущества</a></li>
                 	<li> <a href="">О ЖК</a></li>                    
-                	<li> <a href="">Места для отдыха</a></li>
+                	<li> <a href="#">Места для отдыха</a></li>
 	        	</ul>
 	   		</nav>
 	  </header>
@@ -28,7 +28,7 @@
 			 <h1 class="title">ЖК &laquo;Лунное море&raquo;</h1>
 			 <h4 class="title-text">Место откуда не хочется улетать</h4>
 			 <div class="order">
-				 <a href="#" class="btn" id="form">забронировать</a>
+				 <a href="#form" class="btn" id="">забронировать</a>
 			 </div>
 		</div>	    
 	    <div class="describe">
@@ -70,7 +70,36 @@
 	    <div id="form" class="">
 	    	<h2 class="title-form"> Оставьте заявку сегодня! </h2>
 	    	<form action="">
-	    		
+	    		<fieldset>
+	    			<legend>Параметры квартиры</legend>
+	    			<label for=""> Количество комнат:
+	    			  <select  name="" id="">
+	    				<option value="without">1</option>
+	    				<option value="">2</option>
+	    				<option value="">3</option>
+	    			  </select>
+	    		    </label>
+	    			<label for="">Отделка:
+	    			  <select name="" id="">
+	    				<option value="">Без отделки</option>
+	    				<option value="earth">Земной пейзаж</option>
+	    				<option value="space">Глубокий космос</option>
+	    			  </select>
+	    			</label>    			    			
+	    		</fieldset>
+	    		<fieldset>
+	    			<legend>Контактная информация</legend>
+	    			<label for="">Имя:
+	    				<input type="text">
+	    			</label>
+	    			<label for="">Телефон:
+	    				<input type="tel">
+	    			</label>
+	    			<label for="">E-mail:
+	    				<input type="email">
+	    			</label>	    			
+	    		</fieldset>
+	    		<button class="btn btn-order" type="submit">Отправить</button>
 	    	</form>
 	    </div>
 	</div>
@@ -79,8 +108,12 @@
 			<p>Лунное море</p>
 		    <p>&copy; 2032 год</p>
 		</div>
-		<div></div>
-		<div></div>
+		<div>
+			<h4>Проектная документация</h4>
+		</div>
+		<div>
+			<h4>О застройщике</h4>
+		</div>
 		
 	 </footer>
 	
